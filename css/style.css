@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: dimgray;
+    color: #fff;
+    position: relative;
+}
+
+.name {
+    font-size: 30px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+.name p {
+    padding: 10px;
+}
+
+.image {
+    min-height: 480px;
+}
+
+.image img {
+    max-height: 400px;
+    width: 50%;
+    position: absolute;
+    margin-left: 50%;
+}
+
+.box {
+    width: 50%;
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.box h3 {
+    padding: 10px;
+    text-transform: uppercase;
+}
+.box_height, .box_base {
+    padding: 20px;
+    
+}
+input {
+    height: 30px;
+    border-radius: 10px;
+    width: 50px;
+    text-align: center;
+    margin: 10px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px #000;
+    background-color: #02AC46; 
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+}
+button:hover {
+    background-color: 00963c;
+}
+
+.field p {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.box h2 {
+    background-color: #000;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+}
+.footer {
+    width: 100%;
+    text-align: center;
+    background-color: gray;
+    font-size: 18px;
+    color: #fff;
+    line-height: 50px;
+}
+
+@media (max-width: 789px) {
+    .image {
+        border: 1px solid red;
+    }
+}
