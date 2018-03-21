@@ -1,7 +1,7 @@
 function myFunction(){
     document.getElementById('result').innerHTML = '';
-    var a = document.getElementById('height').value;
-    var h = document.getElementById('base').value;
+    var a = document.getElementById('base').value;
+    var h = document.getElementById('height').value;
 
     var triangleArea = a*h/2;
 
