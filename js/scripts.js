@@ -1,13 +1,9 @@
-var name= prompt('Enter your name: ');
-alert('Hello ' + name);
-document.getElementById('name').innerHTML = name;
-
-function calculateTriangleArea(){
+function calculateTriangleArea () {
     document.getElementById('result').innerHTML = '';
     var a = document.getElementById('base').value;
     var h = document.getElementById('height').value;
 
-    var triangleArea = a*h/2;
+    var triangleArea = a * h / 2;
 
     document.getElementById('result').innerHTML = triangleArea;
 
