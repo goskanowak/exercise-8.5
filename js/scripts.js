@@ -9,3 +9,5 @@ function calculateTriangleArea () {
 
     console.log('Triangle field with base a: ' + a + ' and height h: ' + h + ' is equal to: ' + triangleArea);
     }
+
+calculateTriangleArea();
