@@ -1,45 +1,46 @@
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Page title</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <div class="container">
-       <h1>Welcome to my page</h1>
-       <div class="name">
-       <p>Hello </p>
-         <p id="name"></p>
-      </div>
-      </div>
-    <div class="container">
-        <div class="image">
-            <img src="https://images.unsplash.com/photo-1520256592797-a9165e758e98?ixlib=rb-0.3.5&s=c2046812734816ca2696e0e865935f84&auto=format&fit=crop&w=1500&q=80" alt="triangle">
-            <div class="box">
-                <h3>triangle Area:</h3>
-                <div class="box_heigh">
-                    <p>Value height:</p>
-                    <input id="height" type="number" min="0" required>
-                </div>
-                <div class="box_base">
-                    <p>Value base:</p>
-                    <input id="base" type="number" min="0" required>
-                </div>
-                <button id="btn" onclick="myFunction()">
-                    <p>check result </p>
-                </button>
-                <div class="field">
-                    <p>Field of your triangle is (a*h/2): </p>
-                </div>
-                <h2 id="result"></h2>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Page title</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Welcome to my page</h1>
+            <div class="name">
+                <p>Hello </p>
+                <p id="name"></p>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="footer">
-            <p>All rights reserved. 2018</p>
+        <div class="container">
+            <div class="image">
+                <img src="https://images.unsplash.com/photo-1520256592797-a9165e758e98?ixlib=rb-0.3.5&s=c2046812734816ca2696e0e865935f84&auto=format&fit=crop&w=1500&q=80" alt="triangle">
+                <div class="box">
+                    <h3>triangle Area:</h3>
+                    <div class="box_heigh">
+                        <p>Value height:</p>
+                        <input id="height" type="number" required>
+                    </div>
+                    <div class="box_base">
+                        <p>Value base:</p>
+                        <input id="base" type="number" required>
+                    </div>
+                    <button id="btn" onclick="calculateTriangleArea()">
+                        <p>check result </p>
+                    </button>
+                    <div class="field">
+                        <p>Field of your triangle is (a*h/2): </p>
+                    </div>
+                    <h2 id="result"></h2>
+                </div>
+            </div>
         </div>
-    </div>
+        <div class="container">
+            <div class="footer">
+                <p>All rights reserved. 2018</p>
+            </div>
+        </div>
     <script type="text/javascript" src="js/scripts.js"></script>
   </body>
 </html>
